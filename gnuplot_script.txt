@@ -1,0 +1,10 @@
+cd 'ACB'
+set pm3d
+set pm3d map
+splot "mid_gnuplot.txt" with pm3d
+set cbrange [1:13]
+set palette model RGB
+set palette defined
+set size square
+replot
+
